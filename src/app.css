@@ -1,0 +1,255 @@
+.profile-icon{
+    height: 90px;
+    width: 90px;
+}
+
+.page-container{
+    padding: 40px;
+    background: linear-gradient(to bottom right, #EFCFFB, #A2DEFA);
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+button{
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+header{
+    padding: 0px 40px;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.justify-space-between{
+    justify-content: space-between;
+}
+
+.justify-content-end{
+    justify-content: end;
+}
+
+.border{
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.gap-2{
+    gap: 2rem;
+}
+
+.gap-1{
+    gap: 0.5rem;
+}
+
+.input-box{
+    height: 30px;
+    width: 190px;
+    border: none;
+    border-radius: 6px;
+}
+
+.p-1{
+    padding: 5px;
+}
+
+.p-2{
+    padding: 2rem;
+}
+
+.btn{
+    background-color: #16739E;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-btn{
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+}
+
+.bg-blue{
+    background-color: #16739E;
+}
+
+.bg-orange{
+    background-color: #F79357;
+}
+
+.bg-green{
+    background-color: #1D9D36;
+}
+
+.bg-dark-blue{
+    background-color: #322A93;
+}
+
+.bg-pink{
+    background-color: #F7CAAE;
+}
+
+.border-cards{
+    border-radius: 8px;
+    border: none;
+    min-height: 45vh;
+}
+
+.card-heading{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-top: 0;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+.cards-wrapper{
+    width: 20%;
+    gap:15px;
+    margin-top: 20px;
+}
+
+.cards-wrapper > div{
+    background-color: white;
+    min-width: 230px;
+}
+
+.bg-grey{
+    background-color: #B3B4B4;
+}
+
+.bg-card{
+    background-color: #E6F0F9;
+}
+
+.card-body{
+    margin: 10px;
+    padding: 6px;
+    padding-bottom: 10px;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.fs-2{
+    font-size: 14px;
+}
+
+.card-description{
+    text-wrap: wrap;
+    word-wrap: break-word;
+}
+
+hr{
+    padding: 0px 50px;
+}
+
+.fw-500{
+    font-weight: 500;
+}
+
+.color-white{
+    color: white;
+}
+
+.page-container-new-task{
+    position: absolute;
+    top:15%;
+    left: 35%;
+    width: 30%;
+    height: 70%;
+    z-index: 200;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(229, 229, 229, 0.5);
+    z-index: 100; 
+  }
+
+  .modal-header{
+    background-color: white;
+    padding: 12px;
+  }
+
+  .modal-header > img{
+    cursor: pointer;
+  }
+  
+  .new-task-body{
+    background: linear-gradient(to bottom right, #EFCFFB, #A2DEFA);
+    padding: 20px;
+  }
+
+  .new-task-body > form > label{
+    width: 500px;
+  }
+
+.input-box-modal{
+    height: 25px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.modal-form > div > p {
+    width: 40%;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.edit-modal {
+    position: absolute;
+    right: -55px;
+}
+
+.edit-modal > button {
+    padding: 10px;
+    width: 100%;
+    color: grey;
+}
+
+.edit-modal > hr {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.mb-3 {
+    margin-bottom: 3px !important;
+}
+
+.h-3 {
+    height: 3rem;
+}
+
+.input-box-modal-edit{
+    width: 40% !important;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.p-11 {
+    padding: 11px;
+}
